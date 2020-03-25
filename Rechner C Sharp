@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   float a, b;
+   int choice;
+   printf   ("Willkommen in meinem Rechner");
+   printf   ("\n1.Addition\n2.Subtraktion\n3.Multiplikation\n4.Division\n");
+   printf   ("Wie wollen Sie rechnen:");
+   scanf    ("%d",&choice);
+   printf   ("Nummer 1: ");
+   scanf("%f",&a);
+   printf("Nummer 2: ");
+   scanf ("%f",&b);
+
+   switch (choice)
+   {
+    case 1:
+            printf ("%f + %f = %.1f",a ,b ,a+b);
+            break;
+    case 2:
+            printf ("%f - %f = %.1f",a ,b ,a-b);
+            break;
+
+    case 3:
+            printf ("%f * %f = %.1f",a ,b ,a*b);
+            break;
+    case 4:
+            printf ("%f / %f = %.1f",a ,b ,a/b);
+            break;
+
+
+
+
+
+    }
+
+
+    return 0;
+}
