@@ -1,0 +1,115 @@
+<!DOCTYPE> 
+<html lang="de">
+<head>
+	<title>Stundenplan</title>
+	<meta charset="utf-8" />
+
+
+
+	<style>
+	body {font-family: Arial, Calibri;
+		font-size: 18px;
+		color: #000000;
+		background-color: #BDBDBD;
+		padding-left: 10p;
+		padding-right: 10px;
+		text-align: center;
+	}
+	table { 
+			margin: 0 auto;
+			background-color: #ffeda0;
+			border-collapse: collapse;
+			text-align: center
+	}		
+	td	{
+		border: 2px solid black;
+		padding: 30px;
+		
+		
+	}
+
+
+	</style>
+
+
+</head>
+<body>
+
+
+	<br />
+	
+	<br />
+	
+	<table> 
+		<tr>
+			<td colspan="6" style="background-color:#FFBF00; font-size:25px;">Stundenplan</td>
+		</tr>
+		<tr>
+			<td>Stunden</td><td>Mo</td><td>Di</td><td>Mo</td><td>Do</td><td>Fr</td>
+		</tr>
+		
+		<tr>
+			<td>1</td><td style="background-color: brown;">H</td>
+			<td style="background-color:#80FF00;">E</td>
+			<td style="background-color: orange;">SPA</td>
+			<td style="background-color: purple;" rowspan="2">BE</td>
+			<td style="background-color:#2E9AFE;">ME</td>
+		</tr>
+		<tr>
+			<td>2</td><td style="background-color: orange;">SPA</td>
+			<td style="background-color:#FF0000;">D</td>
+			<td style="background-color:#FFFF00;">M</td>
+			<td style="background-color:#FF0000;">D</td>
+		</tr>
+		<tr>
+			<td>3 </td><td style="background-color: #FF0000;">D</td>
+			<td style="background-color:#FFFF00;">M</td>
+			<td style="background-color: #013ADF;" rowspan="2">INF</td>
+			<td style="background-color:#FFFF00;">M</td>
+			<td style="background-color: #0093F9;">GW</td>
+		</tr>
+		<tr>
+			<td>4</td><td style="background-color:#80FF00">E</td>
+			<td style="background-color:#2E9AFE;">ME</td>
+			<td style="background-color: grey;">PH</td>
+			<td style="background-color: grey;">PH</td>
+		</tr>
+		<tr>
+			<td>5</td><td style="background-color: #DD2EE2;">BI</td>
+			<td></td><td style="background-color:#01DFD7;">RK</td>
+			<td style="background-color:#80FF00;">E</td>
+			<td style="background-color: brown;">H</td>
+		</tr>
+		<tr>
+			<td>6</td><td></td><td></td><td></td>
+			<td style="background-color: orange;">SPA</td>
+			<td style="background-color:#01DFD7;">RK</td>
+		</tr>
+		<tr>
+			<td>7</td><td></td><td></td><td></td><td></td><td></td>
+		</tr>
+		<tr>
+			<td>8</td><td></td><td></td><td></td><td></td><td></td>
+		</tr>
+		<tr>
+			<td>9</td><td style="background-color: violet;" rowspan="2">BSK</td>
+			<td></td><td></td><td></td><td></td>
+		</tr>
+		<tr>
+			<td>10</td><td></td><td></td><td></td><td></td>
+		</tr>
+		<tr>
+			<td>11</td><td></td><td></td><td></td><td></td><td></td>
+		</tr>
+		<tr>
+			<td>12</td><td></td><td></td><td></td><td></td><td></td>
+		</tr>
+	
+		
+	</table>
+
+
+
+
+</body>
+</html>
